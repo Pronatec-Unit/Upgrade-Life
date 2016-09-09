@@ -11,4 +11,4 @@ Valdiclécia: Gerente
 Data | Atividade
 ------------ | -------------
 08/09 | Entrega do Wireframe
-09/09 | Enviar as telas
+09/09 | Envio de telas
