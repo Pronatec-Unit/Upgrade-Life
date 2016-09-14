@@ -1,11 +1,11 @@
 # Upgrade-Life
-Upgrade Life é o aplicativo que organizará sua vida acadêmica e pessoal.
+Upgrade Life é um aplicativo que organizará sua vida acadêmica e pessoal.
 
 ##Equipe
-1. Valdiclécia: Gerente
-2. Claudia: Designer
-3. Janaine: Designer
-4. Jefferson: Programador
+1. Valdiclécia - Gerente
+2. Claudia - Designer
+3. Janaine - Designer
+4. Jefferson - Programador
 
 ## Cronograma
 Data | Atividade
