@@ -12,3 +12,4 @@ Data | Atividade
 ------------ | -------------
 08/09 | Entrega do Wireframe
 09/09 | Envio de telas
+28/09 | Apresentação de Menus
