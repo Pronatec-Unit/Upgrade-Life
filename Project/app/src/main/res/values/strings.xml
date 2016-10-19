@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">test projet</string>
+    <string name="aluno">ALUNO</string>
+    <string name="professor">PROFESSOR</string>
+    <string name="img">img</string>
+    <string name="login">LOGIN</string>
+    <string name="ig">img</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="email">Email</string>
+    <string name="digite_seu_email">Digite seu email</string>
+    <string name="senha">Senha</string>
+    <string name="senhas">senhas</string>
+    <string name="entrar">Entrar</string>
+    <string name="n_o_possui_conta_cadastre_se">Não possui conta? Cadastre-se!</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="notificacao">notificacao</string>
+    <string name="lembrete">Lembrete</string>
+    <string name="arquivos">arquivos</string>
+    <string name="arquivo">Arquivos</string>
+    <string name="calculo">calculo</string>
+    <string name="calculos">Calculos</string>
+    <string name="calendar">calendar</string>
+    <string name="calend_rio">Calendário</string>
+    <string name="pessoa">pessoa</string>
+    <string name="pessoal">Pessoal</string>
+    <string name="voltar">Voltar</string>
+    <string name="meus_arquivos">Meus Arquivos</string>
+    <string name="Lembretes">Lembrete</string>
+    <string name="todos_os_lembretes">Todos os lembretes</string>
+    <string name="recentes">Recentes</string>
+    <string name="provas">Provas</string>
+    <string name="trabalhos">Trabalhos</string>
+    <string name="notas">Notas</string>
+    <string name="_60">60%</string>
+    <string name="Voltar">voltar</string>
+</resources>

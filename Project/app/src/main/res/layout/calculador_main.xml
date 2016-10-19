@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:text="Calcule"
+            android:id="@+id/txtcalcule"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="#007FFF" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/notas"
+            android:id="@+id/btnota"
+            android:layout_marginTop="68dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="#007FFF"
+            android:layout_below="@+id/txtcalcule"
+            android:layout_alignStart="@+id/btmedia" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Média"
+            android:id="@+id/btmedia"
+            android:textSize="20dp"
+            android:background="#007FFF"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="34dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Faltas"
+            android:id="@+id/btfalta"
+            android:textSize="20dp"
+            android:background="#007FFF"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="53dp"
+            android:layout_below="@+id/btmedia"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtnum"
+            android:layout_alignTop="@+id/btnota"
+            android:layout_toEndOf="@+id/btnota"
+            android:layout_marginStart="34dp"
+            android:text="@string/_60"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:inputType="none" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtvalor"
+            android:layout_above="@+id/btfalta"
+            android:layout_alignStart="@+id/txtnum"
+            android:text="6"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:inputType="none" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtporcen"
+            android:layout_alignTop="@+id/btfalta"
+            android:layout_alignStart="@+id/txtvalor"
+            android:textAlignment="center"
+            android:text="25%"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Voltar"
+            android:id="@+id/button3"
+            android:onClick="chamaTelaUsuario"
+            android:layout_below="@+id/btfalta"
+            android:layout_toEndOf="@+id/txtporcen" />
+
+    </RelativeLayout>
+</LinearLayout>
