@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Media Unit</string>
+    <string name="nota_1">Nota 1</string>
+    <string name="nota_2">Nota 2</string>
+    <string name="calcular">Calcular</string>
+    <string name="media">Media</string>
+    <string name="media_final">Media Final</string>
+    <string name="resultado">Resultado</string>
+</resources>
