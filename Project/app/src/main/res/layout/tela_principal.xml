@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/id1">
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="147dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/logo"
+        android:background="@drawable/fundo" />
+    <TextView
+        android:text="Professor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Cadastrar Alunos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btcadastrar_usuario"
+            android:layout_weight="0.29" />
+
+        <Button
+            android:text="Lista Alunos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_listar_usuarios_cadastrados"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Aluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Calcular Média "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_green_dark" />
+
+
+    <TextView
+        android:text="Primeira Nota"
+        android:layout_width="match_parent"
+        android:id="@+id/textView7"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="NOTA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberSigned|numberDecimal"
+            android:ems="10"
+            android:id="@+id/ednota1"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="PESO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/edpeso1"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <TextView
+        android:text="Segunda Nota"
+        android:layout_width="match_parent"
+        android:id="@+id/textView7"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="NOTA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberSigned|numberDecimal"
+            android:ems="10"
+            android:id="@+id/ednota2"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="PESO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/edpeso2"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="Calcular Media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btcalcular" />
+
+    <TextView
+        android:text="Calcular Frequencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Numero de Aulas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView8"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edaulas"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Numero de Faltas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edfaltas"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="Caucular Frequencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btfrequencia" />
+
+
+
+
+
+
+</LinearLayout>
+
